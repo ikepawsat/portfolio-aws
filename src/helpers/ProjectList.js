@@ -1,14 +1,41 @@
-import bcLogo from "../assets/bc-logo.png";
+import colab from "../assets/Colab.PNG";
+import firstWebsite from "../assets/first-website.png";
+import AITag from "../assets/AI-Intro.PNG";
 
 export const ProjectList = [
     {
-        name: "project 1",
-        image: bcLogo,
-        price: 1,
+        name: "School Projects",
+        image: colab,
+        desc: "An assortment of my school projects which are cool to me and that I believe represent what I have been taught.",
     },
     {
-        name: "project 2",
-        image: bcLogo,
-        price: 1,
+        name: "My First AI",
+        image: colab,
+        desc: "This summer I wanted to start advancing my AI skills so I decided to start with this simple AI.",
+    },
+    {
+        name: "AI Tag Attempt",
+        image: AITag,
+        desc: "My attempt at an AI Tag game, if you only have a few moments look here please.",
+    },
+    {
+        name: "First Website",
+        image: firstWebsite,
+        desc: "When I first started learning about websites I attempted to build a custom phishing website to test my skills.",
+    },
+    {
+        name: "Old Website",
+        image: firstWebsite,
+        desc: "When I first started learning about websites I attempted to build a custom phishing website to test my skills.",
+    },
+    {
+        name: "This Website",
+        image: firstWebsite,
+        desc: "When I first started learning about websites I attempted to build a custom phishing website to test my skills.",
+    },
+    {
+        name: "TODO",
+        image: colab,
+        desc: "add something that pops up with an X top right that gives a description, what you learned, what skills used, and link to Git",
     }
 ]

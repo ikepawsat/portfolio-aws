@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .portfolio .portfolioTitle {
-    font-family: cursive;
+    font-family: Block;
     font-size: 60px;
 }
 
@@ -26,7 +26,7 @@
     width: 300px;
     height: 350px;
     margin: 20px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px hsla(0, 0%, 0%, 0.2);
 }
 .portfolioItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);

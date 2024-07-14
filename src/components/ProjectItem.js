@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ProjectItem({ image, name, price }) {
+function ProjectItem({ image, name, desc }) {
   return (
-    <div className="projectItem">
-      <div style={{ backgroundImage: `url(${image})` }}></div>
+    <div className="portfolioItem">
+      <div className="projectImage" style={{ backgroundImage: `url(${image})` }}></div>
       <h1>{name}</h1>
-      <p>${price}</p>
+      <p>{desc}</p>
     </div>
   );
 }
