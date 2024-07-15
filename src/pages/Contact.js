@@ -1,12 +1,15 @@
 import React from 'react'
-import me from "../assets/me.jpeg";
+import resume from "../assets/resume.png";
+import resumePDF from "../assets/resumePDF.pdf";
 import "../styles/Contact.css"
 
 function Contact() {
   return (
     <div className = "contact">
       <div className = "left">
-        <img src={me} alt="Logo" />
+        <a href={resumePDF} download> <img src={resume} alt="resume" /></a>
+        <p>Click to Download</p>
+        <p>Last updated: </p>
       </div>
       <div className = "right">
         <h1>Contact Me</h1>

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parallax1 {
+    background-image: url('../assets/AI-Intro.PNG');
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    background-image: url('../assets/Colab.PNG');
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .content-wrapper {
+    background-color: #505050; /* whole area wrapper */
+  }
+
+  .content {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .bg-quote {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Add a slight upward motion */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

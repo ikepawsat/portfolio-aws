@@ -13,7 +13,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/john-pawsat-a9748627a/" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
         </a>
-        <p>Powered by AWS Amplify</p>
+        <p>Powered by AWS</p>
       </div>
     </div>
   )

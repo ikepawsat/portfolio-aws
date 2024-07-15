@@ -1,4 +1,4 @@
-.about-top {
+.about {
     width: 100%;
     height: 90vh;
     display: flex;
@@ -39,4 +39,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+  .second-section {
+    padding-top: 50px;
+  }
