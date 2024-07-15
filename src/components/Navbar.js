@@ -19,7 +19,7 @@ function Navbar() {
       <div className="left" id={openLinks ? "open" : "close"}>
         <img src={me} alt="Logo" />
         <p className="name">Ike Pawsat</p>
-        <div className="hiddenLinks">
+        <div className="hiddenLinks hover:bg-gray-700">
           <Link to="/"> <HomeIcon fontSize="small" /> Home </Link>
           <Link to="/About"> <PersonIcon fontSize="small" /> About </Link>
           <Link to="/Portfolio"> <LibraryBooksIcon fontSize="small" /> Portfolio </Link>

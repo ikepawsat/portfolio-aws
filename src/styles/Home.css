@@ -22,6 +22,7 @@
   
   .content-wrapper {
     background-color: #505050; /* whole area wrapper */
+    font: font-mono;
   }
 
   .content {
@@ -35,6 +36,16 @@
   }
 
   .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+  }
+
+  .fade-in-right {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+  }
+
+  .fade-in-left {
     opacity: 0;
     animation: fadeInAnimation 2s ease forwards;
   }

@@ -21,7 +21,6 @@
 
 /* PORTFOLIO ITEM STYLING */
 
-
 .portfolioItem {
     border-radius: 15px;
     width: 300px;
@@ -35,7 +34,7 @@
     cursor: pointer;
 }
 
-.portfolioItem div {
+.portfolioItem .projectImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -45,9 +44,13 @@
     background-size: cover;
 }
 
-.portfolioItem h1,
-.portfolioItem p {
-    margin-left: 20px;
+.portfolioItem .projectName {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+.portfolioItem .projectDesc {
+    font-size: 16px; /* Adjust the size as needed */
 }
 
 @media only screen and (max-width: 1300px) {
