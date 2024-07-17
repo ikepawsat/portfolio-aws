@@ -1,24 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import resume from "../assets/resume.png";
 import resumePDF from "../assets/resumePDF.pdf";
 import "../styles/Contact.css";
 import Modal from "../components/MessageModal.js";
 
 function Contact() {
-  const [showModal, setShowModal] = useState(false); // State to manage modal display
+  const [showModal, setShowModal] = useState(false); 
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent default form submission
-    // Add logic here to send email (not implemented here)
+    event.preventDefault();
 
-    // Show modal on successful form submission
-    setShowModal(true);
+    //Using emailJS
+    emailjs.sendForm(
+      "contact_me_portfolio", //service id
+      "contact", //template id
+      event.target,
+      "eXDkaCa2rymiERbwV" //public key
+    )
+    .then((result) => {
+      console.log(result.text);
+      // Show modal on successful form submission
+      setShowModal(true);
+    }, (error) => {
+      console.log(error.text);
+    });
+
+    // Reset form fields
+    event.target.reset();
   };
 
   return (
     <div className="contact">
       <div className="left">
-        <a href={resumePDF} download> <img src={resume} alt="resume" /></a>
+        <a href={resumePDF} download>
+          <img src={resume} alt="resume" />
+        </a>
         <p>Click to Download</p>
         <p>Last updated: </p>
       </div>
@@ -28,7 +45,7 @@ function Contact() {
           <label htmlFor="name"> Full Name</label>
           <input name="name" placeholder="Enter full name" type="text" required />
           <label htmlFor="email"> Email</label>
-          <input name="email" placeholder="Enter email" type="email" required />
+          <input name="email" placeholder="Enter email" type="text" required />
           <label htmlFor="message"> Message</label>
           <textarea name="message" placeholder="Enter message" rows="6" required />
           <button type="submit"> Send Message</button>
