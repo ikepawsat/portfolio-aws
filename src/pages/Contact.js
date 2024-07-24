@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import resume from "../assets/resume.png";
-import resumePDF from "../assets/resumePDF.pdf";
 import "../styles/Contact.css";
 import Modal from "../components/MessageModal.js";
 
@@ -33,11 +32,11 @@ function Contact() {
   return (
     <div className="contact">
       <div className="left">
-        <a href={resumePDF} download>
+        <a href={resume} download>
           <img src={resume} alt="resume" />
         </a>
         <p>Click to Download</p>
-        <p>Last updated: </p>
+        <p>Last updated: July 24th 2024</p>
       </div>
       <div className="right">
         <h1>Contact Me</h1>
