@@ -35,10 +35,10 @@ function Home() {
       <div className="parallax1"></div> {/* First Parallax Section */}
 
       <div className="content-wrapper">
-        <div className="content font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
-          <p className="mb-6 text-xl md:text-2xl uppercase text-white">This is a simple parallax effect created by setting the background attachment property to a fixed position. This technique is not meant for non-decorative images, videos, etc. as those require additional HTML and CSS to work properly.</p>
-          <p className="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
-          <p className="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
+        <div className="content font-serif leading-normal mx-auto py-12 px-4 max-w-lg text-center">
+          <p className="mb-6 text-2xl md:text-2xl uppercase text-white">Ike Pawsat</p>
+          <h5 className="mb-4 text-xl">Pursuing a B.S. in Computer Science with a Minor in Data Science at Boston College.</h5>
+          <p className="mb-4 text-lg">Looking for an internship for Summer 2025</p>
         </div>
       </div>
 

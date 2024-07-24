@@ -8,17 +8,63 @@ function About() {
       <div className = "font-ariel w-1/2 justify-center mx-auto">
       <h1 className = "text-center text-6xl p-8">Skills</h1>
         
-        <p className = "font-bold">Skills go here</p>
+        <p className = "font-bold">Spanish</p>
         <div className = "pt-4 pb-8 flex justify-center">
           <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
-            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "50%" }}></div>
+            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "70%" }}></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+              <p>Business Proficient</p>
+            </div>
           </div>
         </div>
 
-        <p className = "font-bold">Skills go here</p>
+        <p className = "font-bold">Python</p>
         <div className = "pt-4 pb-8 flex justify-center">
           <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
-            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "50%" }}></div>
+            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "90%" }}></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+              <p>Advanced</p>
+            </div>
+          </div>
+        </div>
+
+        <p className = "font-bold">Java</p>
+        <div className = "pt-4 pb-8 flex justify-center">
+          <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
+            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "60%" }}></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+              <p>Strong</p>
+            </div>
+          </div>
+        </div>
+
+        <p className = "font-bold">Website Development Languages -- HTML, CSS, JSON</p>
+        <div className = "pt-4 pb-8 flex justify-center">
+          <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
+            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "85%" }}></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+              <p>Professional</p>
+            </div>
+          </div>
+        </div>
+
+        <p className = "font-bold">SQL</p>
+        <div className = "pt-4 pb-8 flex justify-center">
+          <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
+            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "60%" }}></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+              <p>Strong</p>
+            </div>
+          </div>
+        </div>
+
+        <p className = "font-bold">AWS</p>
+        <div className = "pt-4 pb-8 flex justify-center">
+          <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
+            <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "65%" }}></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+              <p>Strong</p>
+            </div>
           </div>
         </div>
 
@@ -26,7 +72,7 @@ function About() {
 
       <div className = "py-8"></div>
 
-      <h1 className = "text-center text-6xl p-8">Title</h1>
+      <h1 className = "text-center text-6xl p-8">Interests</h1>
 
       <Carousel />
 
