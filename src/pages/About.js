@@ -69,10 +69,22 @@ function About() {
         </div>
 
         <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
+          <p className = "font-bold">C#</p>
+          <div className = "pt-4 pb-8 flex justify-center">
+            <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
+              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "60%" }}></div>
+              <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+                <p>Proficient</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
           <p className = "font-bold">AWS</p>
           <div className = "pt-4 pb-8 flex justify-center">
             <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
-              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "65%" }}></div>
+              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "70%" }}></div>
               <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
                 <p>Proficient</p>
               </div>
