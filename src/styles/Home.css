@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .parallax1 {
-    background-image: url('../assets/AI-Intro.PNG');
+    background-image: url('../assets/AI-Intro.png');
     min-height: 650px;
     background-attachment: fixed;
     background-position: center;
@@ -12,7 +12,7 @@
   }
 
   .parallax2 {
-    background-image: url('../assets/Colab.PNG');
+    background-image: url('../assets/Colab.png');
     min-height: 600px;
     background-attachment: fixed;
     background-position: center;

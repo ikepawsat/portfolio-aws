@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import colab from "../assets/Colab.PNG";
+import colab from "../assets/Colab.png";
 import firstWebsite from "../assets/first-website.png";
-import AITag from "../assets/AI-Intro.PNG";
+import AITag from "../assets/AI-Intro.png";
 
 function Carousel() {
   const [activeIndex, setActiveIndex] = useState(0);

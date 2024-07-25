@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import me from "../assets/me.jpeg";
+import me from "../assets/me.png";
 import { Link } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import HomeIcon from '@mui/icons-material/Home';
