@@ -52,8 +52,8 @@ export const ProjectList = [
     {
         name: "Previous Websites",
         image: firstWebsite,
-        desc: "When I first started learning about websites I attempted to build a custom phishing website to test my skills.",
-        long_desc: "fasjfa",
+        desc: "My old portfolio website and a fake website I made when I was first learning.",
+        long_desc: "This links to how I used to have my portfolio, hosted on github, which was good, but it was honestly a horrible website and I thought using AWS Route 53 and Amplify I could make a much sleeker website with React and get a custom domain name to make it more professional. There is also an area to my first website I built, but it was more of a test run.",
         github: "https://github.com/ikepawsat/ikepawsat.github.io",
     }
 ]
