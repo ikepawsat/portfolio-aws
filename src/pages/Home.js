@@ -32,7 +32,7 @@ function Home() {
         <title>Ike Pawsat</title>
       </Helmet>
 
-      <div className="parallax1"></div> {/* First Parallax Section */}
+      <div className="parallax1 h-lvh"></div> {/* First Parallax Section */}
 
       <div className="content-wrapper">
         <div className="content font-serif leading-normal mx-auto py-12 px-4 max-w-lg text-center">

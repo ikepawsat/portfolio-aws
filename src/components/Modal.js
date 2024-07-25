@@ -11,13 +11,13 @@ export default function Modal({ showModal, setShowModal, title, desc, image, lon
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/* header */}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 className="text-3xl font-semibold text-center">
+                  <h3 className="text-3xl font-semibold text-center w-full">
                     {title}
                   </h3>
                 </div>
                 {/* body */}
                 <div className="relative p-6 flex-auto max-md">
-                  <div>
+                  <div className="flex justify-center">
                     <img src={image} alt={title} className="w-96 h-auto" />
                   </div>
                   <p className="my-4 text-blueGray-500 text-lg leading-relaxed">

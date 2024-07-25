@@ -1,26 +1,26 @@
 import React, { useState } from "react";
-import colab from "../assets/Colab.png";
-import firstWebsite from "../assets/first-website.png";
-import AITag from "../assets/AI-Intro.png";
+import ironman from "../assets/ironman.png";
+import bccr from "../assets/bccr.png";
+import charity from "../assets/charity.png";
 
 function Carousel() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const slides = [
     {
-      image: colab,
+      image: charity,
       title: "Charity Fundraising",
-      text: "Raised over $10,000 for the amazing Red Sox Foundation to provide scholarships and academic advancement for the underprivilaged communities around Boston.",
+      text: "Raised over $10,000 for the amazing Red Sox Foundation to provide scholarships and academic advancement for the underprivileged communities around Boston.",
     },
     {
-      image: firstWebsite,
+      image: bccr,
       title: "Boston College Club Running",
       text: "I have been a member of Boston College Club Running since my Freshman year and am currently the Men's Engagement Coordinator and a Nationals Team Member.",
     },
     {
-      image: AITag,
+      image: ironman,
       title: "Ironman Lake Placid",
-      text: "This summer I finally accomplished one of my lifegoals to be an Ironman. This journey started in my Sophomore year of highschool and I am extremely grateful to have been given an opportunity to succeed and complete it.",
+      text: "This summer I finally accomplished one of my lifegoals to be an Ironman. This journey started in my Sophomore year of high school and I am extremely grateful to have been given an opportunity to succeed and complete it.",
     },
   ];
 
@@ -44,7 +44,7 @@ function Carousel() {
       className="relative w-full md:w-1/2 h-auto justify-center mx-auto mb"
       data-carousel="static"
     >
-      <div className="relative h-96 overflow-hidden rounded-lg md:h-96">
+      <div className="relative h-96 overflow-hidden rounded-lg">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -55,7 +55,7 @@ function Carousel() {
           >
             <img
               src={slide.image}
-              className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute block w-full h-full object-cover object-top -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt={`Slide ${index + 1}`}
             />
           </div>
@@ -130,7 +130,7 @@ function Carousel() {
 
       <div className="mt-4 p-4 bg-gray-800 bg-opacity-75 text-white rounded-lg">
         <h2 className="text-lg font-bold">{slides[activeIndex].title}</h2>
-        <p className = "mt-2 pb-6">{slides[activeIndex].text}</p>
+        <p className="mt-2 pb-6">{slides[activeIndex].text}</p>
       </div>
     </div>
   );

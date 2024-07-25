@@ -31,8 +31,8 @@ export const ProjectList = [
     {
         name: "Football Play Predictor",
         image: playpred,
-        desc: "My attempt at an AI Tag game, if you only have a few moments look here please.",
-        long_desc: "fasjfa",
+        desc: "With how many trick plays there are I wondered how well a ML Program could read an Offense",
+        long_desc: "I used Football Savant Datasets for this and even with an extremely small set of data (2 games, Chiefs vs Bills in the 2023 season), the ML Program was 5% better than just random guesses. How well an NFL Player could do remains to be seen, but I am curious how well they would compare with larger data sets.",
         github: "https://github.com/ikepawsat/Personal-Projects/tree/main/Football%20Play%20Predictor",
     },
     {
