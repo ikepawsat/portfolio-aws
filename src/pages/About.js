@@ -3,10 +3,10 @@ import Carousel from '../components/Carousel'
 
 function About() {
   return (
-    <div className = "pt-24">
+    <div className = "bg-gray-900 text-white">
 
       <div className = "font-ariel justify-center mx-auto">
-      <h1 className = "text-center text-6xl p-8">Skills</h1>
+      <h1 className = "text-center text-6xl p-8 pt-32">Skills</h1>
         
         <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
           <p className = "font-bold">Spanish</p>

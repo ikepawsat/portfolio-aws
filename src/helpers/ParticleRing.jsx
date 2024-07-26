@@ -7,7 +7,7 @@ const ParticleRing = () => {
   return (
     <div className="relative w-full h-full overflow-hidden">
       <Canvas
-        camera={{ position: [10, -7.5, -5] }}
+        camera={{ position: [10, 10, 10] }} // Adjusted camera position for a good view
         style={{ height: "100vh" }}
         className="bg-slate-900"
       >
@@ -30,7 +30,8 @@ const PointCircle = () => {
 
   useFrame(({ clock }) => {
     if (ref.current?.rotation) {
-      ref.current.rotation.z = clock.getElapsedTime() * 0.05;
+      ref.current.rotation.x = clock.getElapsedTime() * -0.05; // Rotate around the Y-axis
+      ref.current.rotation.z = clock.getElapsedTime() * -0.05;
     }
   });
 
@@ -54,7 +55,7 @@ const Point = ({ position, value }) => {
       color="white"
       anchorX="center"
       anchorY="middle"
-      rotation={[Math.PI / 2, Math.PI, 0]} // Adjust rotation to face the camera
+      rotation={[0, 1, 0]}
     >
       {value}
     </Text>

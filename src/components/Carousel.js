@@ -41,7 +41,7 @@ function Carousel() {
   return (
     <div
       id="indicators-carousel"
-      className="relative w-full md:w-1/2 h-auto justify-center mx-auto mb"
+      className="relative w-full md:w-1/2 h-auto justify-center mx-auto"
       data-carousel="static"
     >
       <div className="relative h-96 overflow-hidden rounded-lg">

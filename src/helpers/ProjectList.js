@@ -4,6 +4,7 @@ import AITag from "../assets/AI-Intro.png";
 import FirstAI from "../assets/FirstAI.png";
 import playpred from "../assets/playpred.png";
 import encrypt from "../assets/encrypt.png";
+import this_web from "../assets/portfolio_pic.png";
 
 
 export const ProjectList = [
@@ -37,7 +38,7 @@ export const ProjectList = [
     },
     {
         name: "This Website",
-        image: firstWebsite,
+        image: this_web,
         desc: "Hosted by AWS Amplify, powered with React, Tailwind and GitHub.",
         long_desc: "I knew I wanted to use AWS Services in one of my projects and I thought what better than to redo my old website and build a new, sleek website that advanced my coding skills. Learning how to setup complex folder interactions along with complex features really helped me push my programming skills. I am really happy with how the features turned out, except that I am not much of a designer.",
         github: "https://github.com/ikepawsat/portfolio-aws",

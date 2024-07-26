@@ -10,7 +10,7 @@ function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    //Using emailJS
+    // Using emailJS
     emailjs.sendForm(
       "contact_me_portfolio", //service id
       "contact", //template id
@@ -30,15 +30,17 @@ function Contact() {
   };
 
   return (
-    <div className="contact">
-      <div className="left pt-24">
-        <a href={resume} download>
-          <img src={resume} alt="resume" />
-        </a>
+    <div className="contact bg-gray-900">
+      <div className="left pt-24 text-white">
+        <div className="image-wrapper shadow-lg shadow-gray-500">
+          <a href={resume} download>
+            <img src={resume} alt="resume" />
+          </a>
+        </div>
         <p>Click to Download</p>
         <p>Last updated: July 24th 2024</p>
       </div>
-      <div className="right pt-24">
+      <div className="right pt-24 text-wrap">
         <h1>Contact Me</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
           <label htmlFor="name"> Full Name</label>

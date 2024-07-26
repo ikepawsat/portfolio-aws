@@ -24,7 +24,7 @@ export const pointsInner = Array.from(
   
     return {
       idx: num,
-      position: [x, y, z],
+      position: [-x, -y, -z],
       binaryValue,
     };
   });
@@ -44,7 +44,7 @@ export const pointsInner = Array.from(
   
     return {
       idx: num,
-      position: [x, y, z],
+      position: [-x, -y, -z],
       binaryValue,
     };
   });
