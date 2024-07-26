@@ -6,10 +6,12 @@
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #FBE9D0;
 }
 
 .portfolio .portfolioTitle {
     font-size: 60px;
+    color: #E64833
 }
 
 .portfolioList {
@@ -22,16 +24,15 @@
 
 /* Portfolio Item Styling */
 .portfolioItem {
-    border-radius: 15px;
     width: 300px;
     height: 350px;
     margin: 20px;
-    box-shadow: 0px 3px 15px hsla(0, 0%, 0%, 0.2);
+    box-shadow: 0px 3px 15px #244855;
     background-color: white;
 }
 
 .portfolioItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 5px 15px #E64833;
     transition: 0.3s ease-in;
     cursor: pointer;
 }

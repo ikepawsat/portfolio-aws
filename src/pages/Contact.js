@@ -31,14 +31,14 @@ function Contact() {
 
   return (
     <div className="contact">
-      <div className="left">
+      <div className="left pt-24">
         <a href={resume} download>
           <img src={resume} alt="resume" />
         </a>
         <p>Click to Download</p>
         <p>Last updated: July 24th 2024</p>
       </div>
-      <div className="right">
+      <div className="right pt-24">
         <h1>Contact Me</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
           <label htmlFor="name"> Full Name</label>

@@ -3,7 +3,7 @@ import Carousel from '../components/Carousel'
 
 function About() {
   return (
-    <div>
+    <div className = "pt-24">
 
       <div className = "font-ariel justify-center mx-auto">
       <h1 className = "text-center text-6xl p-8">Skills</h1>

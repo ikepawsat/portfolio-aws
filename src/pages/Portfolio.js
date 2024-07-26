@@ -17,9 +17,9 @@ function Portfolio() {
   };
 
   return (
-    <div class = "bg-white">
+    <div>
       <div className="portfolio">
-        <h1 className="portfolioTitle">Projects</h1>
+        <h1 className="portfolioTitle pt-24">Projects</h1>
         <div className="portfolioList">
           {ProjectList.map((projectItem, key) => (
             <ProjectItem
@@ -45,7 +45,7 @@ function Portfolio() {
         )}
       </div>
 
-      <div className = "py-8"></div>
+      <div className = "py-8 portfolio"></div>
     </div>
   );
 }

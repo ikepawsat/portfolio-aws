@@ -10,16 +10,18 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
+  const [navbarStyle] = useState({});
+
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
-  }
+  };
 
   return (
-    <div className="navbar">
+    <div className="navbar" style={navbarStyle}>
       <div className="left" id={openLinks ? "open" : "close"}>
         <img src={me} alt="Logo" />
         <p className="name">Ike Pawsat</p>
-        <div className="hiddenLinks hover:bg-gray-700">
+        <div className="hiddenLinks">
           <Link to="/"> <HomeIcon fontSize="small" /> Home </Link>
           <Link to="/About"> <PersonIcon fontSize="small" /> About </Link>
           <Link to="/Portfolio"> <LibraryBooksIcon fontSize="small" /> Portfolio </Link>
