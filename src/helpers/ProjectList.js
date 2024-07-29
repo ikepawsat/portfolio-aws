@@ -51,6 +51,13 @@ export const ProjectList = [
         github: "https://github.com/ikepawsat/School-Projects",
     },
     {
+        name: "Personal Projects",
+        image: colab,
+        desc: "These are smaller and mostly one day projects that I do for my own entertainment, some are fun to look at.",
+        long_desc: "I have linked a couple of these already above that I selected to be some of my favorites; however, I am including this just show other examples of my work. I am a huge sports fan and a lot of these projects center around that or some problem I need a solution to like a Discord bot",
+        github: "https://github.com/ikepawsat/Personal-Projects",
+    },
+    {
         name: "Previous Websites",
         image: firstWebsite,
         desc: "My old portfolio website and a fake website I made when I was first learning.",
