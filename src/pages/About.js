@@ -6,6 +6,19 @@ function About() {
     <div className = "bg-gray-900 text-white">
 
       <div className = "font-ariel justify-center mx-auto">
+      <h1 className = "text-center text-6xl p-8 pt-32">Endorsement</h1>
+      <div className = "w-1/2 pt-16 font-bold text-wrap text-left mx-auto">
+        <h5>
+          "Ike is motivated and resourceful, and his work in my class was excellent. Our course was an upper level mathematics foundations
+          class meant for junior and senior math majors, and already as a sophomore he was one of my strongest students, both in skill and
+          in character."
+        </h5>
+      </div>
+      <div className = "w-1/3 pt-4 font-bold text-wrap text-left mx-auto">
+        <p>
+          — Boston College Math Department - frechecl@bc.edu
+        </p>
+      </div>
       <h1 className = "text-center text-6xl p-8 pt-32">Skills</h1>
         
         <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
@@ -14,7 +27,7 @@ function About() {
             <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
               <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "70%" }}></div>
               <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
-                <p>Business Proficiency</p>
+                <p>Business Proficient</p>
               </div>
             </div>
           </div>
@@ -82,6 +95,18 @@ function About() {
 
         <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
           <p className = "font-bold">AWS</p>
+          <div className = "pt-4 pb-8 flex justify-center">
+            <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
+              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "70%" }}></div>
+              <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
+                <p>Proficient</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
+          <p className = "font-bold">ML and Deep Learning</p>
           <div className = "pt-4 pb-8 flex justify-center">
             <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
               <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "70%" }}></div>
