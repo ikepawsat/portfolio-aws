@@ -33,21 +33,11 @@ function Contact() {
   return (
     <div className="contact bg-gray-900">
       <div className="left pt-24 text-white">
-
-      <div className="image-wrapper shadow-lg shadow-gray-500">
-        <a href={IkePawsatResume} download="IkePawsatResume.pdf" onClick={(e) => {
-          e.preventDefault();
-          const link = document.createElement('a');
-          link.href = IkePawsatResume;
-          link.download = 'IkePawsatResume.pdf';
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-        }}>
-          <img src={resume} alt="resume" />
-        </a>
-      </div>
-
+        <div className="image-wrapper shadow-lg shadow-gray-500">
+          <a href="https://ikepawsat-website-bucket.s3.amazonaws.com/IkePawsatResume.pdf" download="Ike Pawsat - Resume.pdf">
+            <img src={resume} alt="resume" />
+          </a>
+        </div>
         <p>Click to Download</p>
         <p>Last updated: July 24th 2024</p>
       </div>
