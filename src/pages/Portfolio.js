@@ -19,14 +19,14 @@ function Portfolio() {
   return (
     <div>
       <div className="portfolio">
-        <h1 className = "text-center text-6xl p-8 pt-32">Current Employment</h1>
-        <div className = "w-1/2 pt-16 font-bold text-wrap text-left mx-auto">
+        <h1 className = "text-center text-6xl p-8 pt-32 text-white">Current Employment</h1>
+        <div className = "w-1/2 pt-16 font-bold text-wrap text-left mx-auto text-white">
           <h5>
             I am currently working as a Teaching Assistant and Lab Mentor for the Boston College Computer Science Department for Professor Biswas'
             CSCI2271: Computer Organization. This was a class I loved and excelled in last year and helped me develop my own CPU using Verilog.
           </h5>
         </div>
-        
+
         <h1 className="portfolioTitle pt-24">Projects</h1>
         <div className="portfolioList">
           {ProjectList.map((projectItem, key) => (
