@@ -19,6 +19,13 @@ function About() {
           — Boston College Math Department - frechecl@bc.edu
         </p>
       </div>
+      <h1 className = "text-center text-6xl p-8 pt-32">Current Employment</h1>
+      <div className = "w-1/2 pt-16 font-bold text-wrap text-left mx-auto">
+        <h5>
+          I am currently working as a Teaching Assistant and Lab Mentor for the Boston College Computer Science Department for Professor Biswas'
+          CSCI2271: Computer Organization. This was a class I loved and excelled in last year and helped me develop my own CPU using Verilog.
+        </h5>
+      </div>
       <h1 className = "text-center text-6xl p-8 pt-32">Skills</h1>
         
         <div className = "w-1/2 hover:w-3/4 mx-auto transition-all duration-300 ease-in-out">
