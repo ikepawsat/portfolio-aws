@@ -34,7 +34,7 @@ function Contact() {
     <div className="contact bg-gray-900">
       <div className="left pt-24 text-white">
         <div className="image-wrapper shadow-lg shadow-gray-500">
-          <a href={IkePawsatResume} download="IkePawsatResume.pdf">
+          <a href={IkePawsatResume} download>
             <img src={resume} alt="resume" />
           </a>
         </div>
