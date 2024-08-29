@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import resume from "../assets/resume.png";
-import resumePDF from "../assets/resumePDF.pdf";
+import IkePawsatResume from "../assets/IkePawsatResume.pdf";
 import "../styles/Contact.css";
 import Modal from "../components/MessageModal.js";
 
@@ -34,7 +34,7 @@ function Contact() {
     <div className="contact bg-gray-900">
       <div className="left pt-24 text-white">
         <div className="image-wrapper shadow-lg shadow-gray-500">
-          <a href={resumePDF} download="Ike Pawsat - Resume.pdf">
+          <a href={IkePawsatResume} download="IkePawsatResume.pdf">
             <img src={resume} alt="resume" />
           </a>
         </div>
