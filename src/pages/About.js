@@ -25,9 +25,9 @@ function About() {
           <p className = "font-bold">Spanish</p>
           <div className = "pt-4 pb-8 flex justify-center">
             <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
-              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "70%" }}></div>
+              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "55%" }}></div>
               <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
-                <p>Business Proficient</p>
+                <p>Proficient - Reading and Writting are best</p>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ function About() {
           <p className = "font-bold">Python</p>
           <div className = "pt-4 pb-8 flex justify-center">
             <div class = "relative h-4 rounded-full overflow-hidden bg-gray-300 w-full">
-              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "90%" }}></div>
+              <div class = "absolute top-0 bottom-0 left-0 rounded-full bg-gradient-to-r from-yellow-500 to-blue-700" style={{ width: "95%" }}></div>
               <div className="absolute inset-0 flex items-center justify-center text-white font-semibold">
                 <p>Advanced</p>
               </div>

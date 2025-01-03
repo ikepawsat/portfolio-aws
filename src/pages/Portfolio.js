@@ -22,8 +22,12 @@ function Portfolio() {
         <h1 className = "text-center text-6xl p-8 pt-32 text-white">Current Employment</h1>
         <div className = "w-1/2 pt-16 font-bold text-wrap text-left mx-auto text-white">
           <h5>
-            I am currently working as a Teaching Assistant and Lab Mentor for the Boston College Computer Science Department for Professor Biswas'
-            CSCI2271: Computer Organization. This was a class I loved and excelled in last year and helped me develop my own CPU using Verilog.
+            I am excited to have accepted a Software Engineering Internship position with Mastercard. This 2025 Summer I will be located at Mastercard's Tech Hub in O'Fallon, Missouri.
+          </h5>
+          <br className = "p-2"></br>
+          <h5>
+            I am currently working as a Teaching Assistant for the Boston College Computer Science Department. Fall 2024 was with Professor Biswas'
+            CSCI2271: Computer Organization last semester and Spring 2025 was with Professor Prud'hommeaux's CSCI3349: Natural Language Processing.
           </h5>
         </div>
 
