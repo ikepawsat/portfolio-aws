@@ -22,8 +22,7 @@ function Portfolio() {
         <h1 className = "text-center text-6xl p-8 pt-32 text-white">Current Employment</h1>
         <div className = "w-1/2 pt-16 font-bold text-wrap text-left mx-auto text-white">
           <h5>
-            I am currently working as a Teaching Assistant and Lab Mentor for the Boston College Computer Science Department for Professor Biswas'
-            CSCI2271: Computer Organization. This was a class I loved and excelled in last year and helped me develop my own CPU using Verilog.
+            Current Mastercard SWE intern in the Saint Louis Tech Hub. Check Resume for more details. Will also be a CSCI3356 Software Engineering TA for Professor Samary.
           </h5>
         </div>
 
