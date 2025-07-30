@@ -5,14 +5,46 @@ import FirstAI from "../assets/FirstAI.png";
 import playpred from "../assets/playpred.png";
 import encrypt from "../assets/encrypt.png";
 import this_web from "../assets/portfolio_pic.png";
+import dl_class from "../assets/dl_class.png";
+import dl_proj_image from "../assets/dl_proj_image.png";
+import ds_fp_image from "../assets/ds_fp_image.png";
+import swe_proj from "../assets/swe_proj.png";
 
 
 export const ProjectList = [
     {
-        name: "Encryption App (IP)",
+        name: "Software Engineering Project",
+        image: swe_proj,
+        desc: "Semester long group project using Django and deployed with Render",
+        long_desc: "This was a 5 person team project meant to gamify Boston College's sustainability services to increase student interest and usage throughout campus. To do this we used a points system connected to a leaderboard and a rewards page which allowed the students to obtain real goods from using sustainable services.",
+        github: "https://github.com/CSCI3356-Fall2024/Ed-Sheeran---The-A-Team",
+    },
+    {
+        name: "Deep Learning",
+        image: dl_class,
+        desc: "Portion of homeworks from my deep learning class.",
+        long_desc: "All of these homeworks I received perfect marks on and were interesting enough for me to include here. These are definitely the most challenging homeworks I have ever done.",
+        github: "https://github.com/ikepawsat/Deep-Learning",
+    },
+    {
+        name: "Deep Learning Project",
+        image: dl_proj_image,
+        desc: "My class final project using a DC-GAN to generate images",
+        long_desc: "I worked in a group of 4 to create and develop a time and cost effective image generation model. The primary issue with these current models is that training is expensive and we wanted to see if we could reduce training costs while maintaining satisfactory image quality.",
+        github: "https://github.com/ikepawsat/Deep-Learning/tree/main/Final%20Paper",
+    },
+    {
+        name: "Data Science Project",
+        image: ds_fp_image,
+        desc: "Final project using Google Colab and Baseball Savant to make baseball player predictions",
+        long_desc: "Worked in a 3-person team to test different ML algorithms and create player projection predictions. Overall, it was accurate for the median player, but had poor preformance towards outliers. Using data normalized for outliers could improve preformance.",
+        github: "https://github.com/ikepawsat/Data-Science",
+    },
+    {
+        name: "Encryption App (NF)",
         image: encrypt,
-        desc: "*IN PROGRESS* Built a desktop app that applied my knowledge of video Encryption and SVD Compression",
-        long_desc: "Disclaimer, this project is still in development, but I have a working front end so I do not mind showing it. I wanted to test some of the ideas of SVD Video Compression that I had learned in my Data Science class along with some of the encryption teachings I had received a semester prior.",
+        desc: "*NOT FINISHED* Built a desktop app to further my deployment skills",
+        long_desc: "Unfinished project, built just to test my front end development and deployment methods. I have a working front end so I do not mind showing it. Big idea was that I wanted to test SVD Compression that I had learned in my Data Science class along with some of the encryption teachings I had received a semester prior.",
         github: "https://github.com/ikepawsat/EncryptionApp",
     },
     {
